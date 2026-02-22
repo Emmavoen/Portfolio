@@ -14,23 +14,15 @@ const ProjectsSection = () => {
       demo: "https://www.schoolbase.africa/",
     },
     {
-      title: "ICOP Academy LMS",
+      title: "SurefundX Capital Website",
       description:
-        "An online learning system for managing courses, instructors, and students with progress tracking and content delivery.",
-      image: assets.lmsImg,
+        "Responsive financial services site built for SureFundX Capital, focused on clarity and credibility.",
+      image: assets.surefundx,
       tech: ["React", "TypeScript", "Tailwind", "Express", "MongoDB"],
       github: "#",
-      demo: "https://lms.icopglobal.org/",
+      demo: "https://www.surefundxcapital.com/",
     },
-    {
-      title: "Resolve.vote — Online Voting & Decision Platform",
-      description:
-        "A secure digital voting platform that enables transparent decision-making for organizations and communities. I built the backend using NestJS, TypeORM, and PostgreSQL to ensure scalability and data integrity.",
-      image: assets.resolveImg,
-      tech: ["NestJS", "TypeORM", "PostgreSQL"],
-      github: "#",
-      demo: "https://resolve.vote/",
-    },
+
     {
       title: "Talent Marketplace",
       description:
@@ -50,13 +42,22 @@ const ProjectsSection = () => {
       demo: "https://www.havenlease.com/",
     },
     {
-      title: "SurefundX Capital Website",
+      title: "Prescripto — Doctor Appointment System",
       description:
-        "Responsive financial services site built for SureFundX Capital, focused on clarity and credibility.",
-      image: assets.surefundx,
-      tech: ["React", "TypeScript", "Tailwind", "Express", "MongoDB"],
+        "A healthcare appointment platform enabling patients to book doctors, manage schedules, and process secure payments, with strict role-based access control for admins, doctors, and patients.",
+      image: assets.prescriptoImg,
+      tech: ["NestJS", "PostgreSQL", "JWT", "Paystack", "Cloudinary"],
       github: "#",
-      demo: "https://www.surefundxcapital.com/",
+      demo: "https://prescripto2-two.vercel.app/",
+    },
+    {
+      title: "Togeda — Discounted Goods Platform",
+      description:
+        "An e-commerce marketplace for discounted products nearing expiry, featuring dynamic pricing, secure checkout, and full order lifecycle management.",
+      image: assets.togeda,
+      tech: ["Express", "MongoDB", "JWT", "Paystack"],
+      github: "#",
+      demo: "https://togeda-web-client.vercel.app/",
     },
   ];
   return (

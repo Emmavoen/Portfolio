@@ -6,6 +6,8 @@ import havenleaseImg from "./havenleaseImg.webp";
 import resolveImg from "./resolveImg.webp";
 import surefundx from "./surefundx.webp";
 import schoolbase from "./schoolbase.png";
+import prescriptoImg from "./prescripto.png";
+import togeda from "./togeda.png";
 
 export const assets = {
   heroImg,
@@ -16,4 +18,6 @@ export const assets = {
   resolveImg,
   surefundx,
   schoolbase,
+  prescriptoImg,
+  togeda,
 };
